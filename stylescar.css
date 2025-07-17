@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.game-area {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #444;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+.car {
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+    width: 40px;
+    height: 80px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.obstacle {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 5px;
+}
